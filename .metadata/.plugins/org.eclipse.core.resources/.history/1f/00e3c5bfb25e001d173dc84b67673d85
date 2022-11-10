@@ -1,0 +1,6 @@
+
+public class Administrador extends Autenticavel {
+	public double getBonificacao() {
+		return 0;
+	}
+}

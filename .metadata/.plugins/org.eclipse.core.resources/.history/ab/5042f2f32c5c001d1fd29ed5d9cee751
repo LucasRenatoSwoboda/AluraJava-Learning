@@ -1,0 +1,56 @@
+package bank;
+// Classe com dados da conta
+public class Conta {
+	Cliente titular;
+	int agencia;
+	int conta;
+	double saldo;
+	
+	public Conta(Cliente cliente) {
+		this.titular = cliente;
+	}
+	
+	public Cliente getTitular() {
+		return this.titular;
+	}
+	
+	public int getAgencia() {
+		return this.agencia;
+	}
+	
+	public int getConta() {
+		return this.conta;
+	}
+	
+	public double getSaldo() {
+		return this.saldo;
+	}
+	
+	public void setSaldo(double valor) {
+		this.saldo = valor;
+	}
+	
+	public boolean sacar(double valor) {
+		if (valor <= getSaldo()) {
+			double novoSaldo = getSaldo() - valor;
+			setSaldo(novoSaldo);
+			return true;
+		}
+		return false;
+	}
+	
+	public void depositar(double valor) {
+		double novoSaldo = getSaldo() + valor;
+		setSaldo(novoSaldo);
+	}
+	
+	public boolean transferir(double valor, int ag, int cc) {
+		if (valor >= getSaldo()) {
+			
+			return true;
+		}
+		
+		return false;
+	}
+	
+}

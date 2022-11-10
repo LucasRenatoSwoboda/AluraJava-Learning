@@ -1,0 +1,13 @@
+
+public class EnunsTeste {
+	
+	public static void main(String [] args) {
+		
+		Thread t = new Thread(() -> 
+		System.out.println("rodando..."));
+		
+		t.start();
+		
+	}
+	
+}

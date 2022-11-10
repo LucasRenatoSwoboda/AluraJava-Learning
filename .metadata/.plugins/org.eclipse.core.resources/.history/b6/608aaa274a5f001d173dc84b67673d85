@@ -1,0 +1,7 @@
+
+public class TesteTributaveis {
+	public static void main(String[] args) {
+		Cliente c1 = new Cliente("Teste");
+		Corrente cc = new Corrente(c1);
+	}
+}

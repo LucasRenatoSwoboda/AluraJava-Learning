@@ -1,0 +1,13 @@
+package bytebank;
+
+public class TesteMetodo {
+
+	public static void main(String[] args) {
+		Conta contaDoPaulo = new Conta();
+		contaDoPaulo.saldo = 100;
+		double valor = 50;
+		contaDoPaulo.deposita(valor);
+		System.out.println(contaDoPaulo.saldo);
+	}
+	
+}

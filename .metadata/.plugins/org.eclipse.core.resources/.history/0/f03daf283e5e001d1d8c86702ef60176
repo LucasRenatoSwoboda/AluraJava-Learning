@@ -1,0 +1,18 @@
+public class Corrente extends Conta {
+	public Corrente(Cliente cliente) {
+		super(cliente);
+	}
+	
+	@Override
+	public boolean sacar(double valor) {
+		double taxa = 0.2;
+		return super.sacar((valor - taxa));
+	}
+	
+	@Override
+	public boolean transferir(double valor, Conta cc) {
+		double taxa = 0.5;
+		return super.transferir((valor-taxa), cc);
+	}
+	
+}

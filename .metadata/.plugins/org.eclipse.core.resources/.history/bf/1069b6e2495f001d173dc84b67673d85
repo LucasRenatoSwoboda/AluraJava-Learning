@@ -1,0 +1,6 @@
+
+public class TesteTributaveis {
+	public static void main(String[] args) {
+		Corrente cc = new Corrente();
+	}
+}
