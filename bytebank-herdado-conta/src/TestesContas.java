@@ -1,6 +1,13 @@
 
 public class TestesContas {
 	public static void main(String[] args) {
+		
+//		int a = 3;
+//		int b = a/0;
+//		
+//		Corrente outra = null;
+//		outra.depositar(200);
+//		
 		Cliente c1 = new Cliente("Cliente 1");
 		Cliente c2 = new Cliente("Cliente 2");
 		
