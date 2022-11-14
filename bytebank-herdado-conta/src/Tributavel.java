@@ -4,5 +4,4 @@ public interface Tributavel {
 	//essas informações já são implicitas na interface
 	public abstract double getValorImposto();
 	
-	
 }

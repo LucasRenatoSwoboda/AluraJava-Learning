@@ -11,16 +11,15 @@ public class Corrente extends Conta implements Tributavel {
 	}
 	
 	@Override
-	public boolean sacar(double valor) {
-		double taxa = 0.2;
-		return super.sacar((valor - taxa));
+	public void sacar(double valor) {
+		super.sacar(valor);
 	}
 	
 	@Override
-	public boolean transferir(double valor, Conta cc) {
+	public void transferir(double valor, Conta cc) {
 		double taxa = 0.5;
 		setSaldo((getSaldo()-taxa));
-		return super.transferir(valor, cc);
+		super.transferir(valor, cc);
 	}
 	
 	@Override

@@ -1,5 +1,6 @@
 
 public class TestesContas {
+	
 	public static void main(String[] args) {
 		
 //		int a = 3;
@@ -16,9 +17,9 @@ public class TestesContas {
 		
 		cc.depositar(100);
 		cp.depositar(500);
-		boolean t = cc.transferir(50, cp);
-		System.out.println(t);
+		cc.transferir(110, cp);
 		System.out.printf("Saldo da cc = %.2f\nSaldo da cp = %.2f",cc.getSaldo(),cp.getSaldo());
 		
 	}
+
 }

@@ -11,7 +11,7 @@ public class Fluxo {
 			System.out.println("Ini do metodo1");
 			try {
 				metodo2();
-			} catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
+			} catch (ArithmeticException | NullPointerException | MinhaExcecao | MinhaExcecao2 ex) {
 				//String msg = ex.getMessage();
 				//System.out.println("ArithmeticException " + msg);
 				// ArithmeticException é uma classe
@@ -22,10 +22,10 @@ public class Fluxo {
 			System.out.println("Fim do metodo1");
 		}
 		
-		public static void metodo2() {
+		public static void metodo2() throws MinhaExcecao2{
 			System.out.println("Ini do metodo2");
 			
-			throw new MinhaExcecao("Minha Excessão gerou erro");			
+			throw new MinhaExcecao2("Minha Excessão gerou erro");			
 			
 			//System.out.println("Fim do metodo2");
 		}

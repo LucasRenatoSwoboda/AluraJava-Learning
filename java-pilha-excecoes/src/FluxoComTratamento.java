@@ -11,7 +11,7 @@ public class FluxoComTratamento {
 			System.out.println("Ini do metodo1");
 			try {
 				metodo2();
-			} catch (ArithmeticException | NullPointerException ex) {
+			} catch (Exception ex) {
 				//String msg = ex.getMessage();
 				//System.out.println("ArithmeticException " + msg);
 				// ArithmeticException é uma classe

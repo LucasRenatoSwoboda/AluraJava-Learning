@@ -1,5 +1,3 @@
-
-
 // Classe para criar uma conta
 public abstract class Conta {
 	private Cliente titular;
@@ -43,25 +41,20 @@ public abstract class Conta {
 
 	// Método para sacar somente se possuir saldo
 	// maior ou igual ao valor sacado
-	public boolean sacar(double valor) {
-		if (valor <= getSaldo()) {
-			double novoSaldo = getSaldo() - valor;
-			setSaldo(novoSaldo);
-			return true;
+	public void sacar(double valor) {
+		if (valor > getSaldo()) {
+			throw new SaldoInsuficienteException("Saldo: R$" + getSaldo() + " não é suficiente para sacar o valor R$" + valor);
 		}
-		return false;
+		double novoSaldo = getSaldo() - valor;
+		setSaldo(novoSaldo);
 	}
 
 	// Método para depositar um valor na conta
 	public abstract void depositar(double valor) ;
 
 	// Método para transferir um valor se tiver saldo
-	public boolean transferir(double valor, Conta cc) {
-		if (valor <= getSaldo()) {
-			this.saldo -= valor;
-			cc.saldo += valor;
-		}
-		return false;
+	public void transferir(double valor, Conta cc) {
+		this.sacar(valor);
+		cc.depositar(valor);
 	}
-
 }
