@@ -17,9 +17,9 @@ public class Corrente extends Conta implements Tributavel {
 	
 	@Override
 	public void transferir(double valor, Conta cc) {
+		super.transferir(valor, cc);
 		double taxa = 0.5;
 		setSaldo((getSaldo()-taxa));
-		super.transferir(valor, cc);
 	}
 	
 	@Override

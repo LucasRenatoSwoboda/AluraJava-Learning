@@ -1,6 +1,0 @@
-
-public class Gerente extends Autenticavel {
-	public double getBonificacao() {
-		return getSalario();
-	}
-}

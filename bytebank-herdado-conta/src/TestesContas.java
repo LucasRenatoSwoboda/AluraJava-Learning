@@ -17,8 +17,14 @@ public class TestesContas {
 		
 		cc.depositar(100);
 		cp.depositar(500);
-		cc.transferir(110, cp);
-		System.out.printf("Saldo da cc = %.2f\nSaldo da cp = %.2f",cc.getSaldo(),cp.getSaldo());
+		try {
+			cc.transferir(110, cp);
+			System.out.printf("Saldo da cc = %.2f\nSaldo da cp = %.2f",cc.getSaldo(),cp.getSaldo());
+		}catch (SaldoInsuficienteExceptionUnchecked ex) {
+			System.out.println(ex.getMessage());
+			ex.printStackTrace();
+		}
+		
 		
 	}
 

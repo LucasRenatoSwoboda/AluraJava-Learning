@@ -1,8 +1,8 @@
 package bytebank;
 
 public class CriaConta {
-	public static void main (String [] args) {
-		Conta primeiraConta = new Conta();
+	public static void main(String[] args) {
+		Conta_inv primeiraConta = new Conta_inv();
 		primeiraConta.agencia = 123;
 		primeiraConta.numero = 123456;
 		primeiraConta.titular = "Lucas";

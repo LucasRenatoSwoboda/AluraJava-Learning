@@ -1,9 +1,0 @@
-
-public class ContaCorrente extends AnotacaoTeste{
-	
-	@Override // ISSO É UMA ANOTAÇÃO
-	public void deposita(double valor) {
-		// TODO Auto-generated method stub
-		super.deposita(valor);
-	}
-}

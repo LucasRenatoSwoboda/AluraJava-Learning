@@ -1,7 +1,0 @@
-
-public class CalculadoraDeImposto {
-	
-	public void registra(Tributavel t) {
-		t.getValorImposto();
-	}
-}

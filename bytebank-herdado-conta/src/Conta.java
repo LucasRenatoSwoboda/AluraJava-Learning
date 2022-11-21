@@ -43,7 +43,7 @@ public abstract class Conta {
 	// maior ou igual ao valor sacado
 	public void sacar(double valor) {
 		if (valor > getSaldo()) {
-			throw new SaldoInsuficienteException("Saldo: R$" + getSaldo() + " não é suficiente para sacar o valor R$" + valor);
+			throw new SaldoInsuficienteExceptionUnchecked("Saldo: R$" + getSaldo() + " não é suficiente para sacar o valor R$" + valor);
 		}
 		double novoSaldo = getSaldo() - valor;
 		setSaldo(novoSaldo);
