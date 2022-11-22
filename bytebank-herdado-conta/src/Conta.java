@@ -41,19 +41,18 @@ public abstract class Conta {
 
 	// Método para sacar somente se possuir saldo
 	// maior ou igual ao valor sacado
-	public void sacar(double valor) {
-		if (valor > getSaldo()) {
-			throw new SaldoInsuficienteExceptionUnchecked("Saldo: R$" + getSaldo() + " não é suficiente para sacar o valor R$" + valor);
+	public void sacar(double valor) throws SaldoInsuficienteExceptionChecked {
+		if (getSaldo() < valor) {
+			throw new SaldoInsuficienteExceptionChecked(String.format("Saldo insuficiente.\nSaldo Atual: R$ %.2f\nValor que tentou sacar: R$ %.2f", getSaldo(), valor));	
 		}
-		double novoSaldo = getSaldo() - valor;
-		setSaldo(novoSaldo);
+		setSaldo(getSaldo() - valor);
 	}
 
 	// Método para depositar um valor na conta
 	public abstract void depositar(double valor) ;
 
 	// Método para transferir um valor se tiver saldo
-	public void transferir(double valor, Conta cc) {
+	public void transferir(double valor, Conta cc) throws SaldoInsuficienteExceptionChecked {
 		this.sacar(valor);
 		cc.depositar(valor);
 	}

@@ -1,31 +1,22 @@
 
 public class TestesContas {
 	
+
 	public static void main(String[] args) {
 		
-//		int a = 3;
-//		int b = a/0;
-//		
-//		Corrente outra = null;
-//		outra.depositar(200);
-//		
-		Cliente c1 = new Cliente("Cliente 1");
-		Cliente c2 = new Cliente("Cliente 2");
+		Cliente cliente = new Cliente("Lucas");
+		Corrente cc = new Corrente(cliente);
+		Corrente cc2 = new Corrente(cliente);
 		
-		Corrente cc = new Corrente(c1);
-		Poupanca cp = new Poupanca(c2);
+		cc.depositar(600);
 		
-		cc.depositar(100);
-		cp.depositar(500);
 		try {
-			cc.transferir(110, cp);
-			System.out.printf("Saldo da cc = %.2f\nSaldo da cp = %.2f",cc.getSaldo(),cp.getSaldo());
-		}catch (SaldoInsuficienteExceptionUnchecked ex) {
+			cc.transferir(600, cc2);
+			System.out.printf("Transferência efetuado\nSaldo Atual: R$ %.2f", cc.getSaldo());
+		}catch(Exception ex) {
 			System.out.println(ex.getMessage());
-			ex.printStackTrace();
 		}
-		
-		
+				
 	}
 
 }
