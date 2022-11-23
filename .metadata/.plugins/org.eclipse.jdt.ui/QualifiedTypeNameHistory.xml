@@ -17,5 +17,8 @@
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="SaldoInsuficienteExceptionUnchecked"/>
     <fullyQualifiedTypeName name="SaldoInsuficienteExceptionChecked"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
     <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
+    <fullyQualifiedTypeName name="modelo.SaldoInsuficienteExceptionChecked"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conexao"/>
 </qualifiedTypeNameHistroy>
