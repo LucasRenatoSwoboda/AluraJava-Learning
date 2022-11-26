@@ -77,4 +77,10 @@ public abstract class Conta {
 		this.sacar(valor);
 		cc.depositar(valor);
 	}
+	
+	@Override
+	public String toString() {
+		return "Ag: " + getAgencia() + " conta nº: " + getConta();
+	}
+	
 }

@@ -28,4 +28,9 @@ public class Corrente extends Conta implements Tributavel {
 		setSaldo(getSaldo() + valor);		
 	}
 	
+	@Override
+	public String toString() {
+		return "Conta Corrente: " + super.toString();
+	}
+	
 }
