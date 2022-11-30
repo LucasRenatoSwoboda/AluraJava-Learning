@@ -1,28 +1,30 @@
 package br.com.bytebank.banco.test;
 
 import br.com.bytebank.banco.modelo.Cliente;
+import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.Corrente;
-import br.com.bytebank.banco.modelo.Poupanca;
+import br.com.bytebank.banco.modelo.GuardadorDeContas;
 
 public class Teste {
 
 	public static void main(String[] args) {
-
-		System.out.println("x");
-		System.out.println(3);	
-		System.out.println(false);
 		
-		Corrente cc = new Corrente(new Cliente("Lucas"));
-		Poupanca cp = new Poupanca(new Cliente("Lucas"));
+		GuardadorDeContas guardador = new GuardadorDeContas();
 		
-		println(cc);
+		Conta cc = new Corrente(new Cliente("Lucas"));
 		
-		System.out.println(cc);
-		System.out.println(cp);
+		guardador.adiciona(cc);
+		
+		for(int i = 0; i < 7; i++) 
+			guardador.adiciona( new Corrente(new Cliente("Lucas" + i)));
+			
+		int tamanho = guardador.getQuantidadeDeElementos();		
+		System.out.println("A lista possui: " + tamanho + " elementos.");
+		
+		Conta ref = guardador.getReferencia(3);
+		
+		System.out.println("Número da conta: " + ref.getConta());
 		
 	}
-	static void println() 				{ 	}
-	static void println(int num) 		{ 	}
-	static void println(boolean logico)	{	}
-	static void println(Object ref) 	{	}
+
 }

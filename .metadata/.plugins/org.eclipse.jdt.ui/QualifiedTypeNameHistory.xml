@@ -22,4 +22,9 @@
     <fullyQualifiedTypeName name="modelo.SaldoInsuficienteExceptionChecked"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conexao"/>
     <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Corrente"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Poupanca"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.GuardadorDeContas"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Conta"/>
+    <fullyQualifiedTypeName name="br.com.bytebank.banco.modelo.Cliente"/>
 </qualifiedTypeNameHistroy>

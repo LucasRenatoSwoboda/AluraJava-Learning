@@ -31,19 +31,15 @@ public abstract class Conta {
 	public Cliente getTitular() {
 		return this.titular;
 	}
-
 	public int getAgencia() {
 		return this.agencia;
 	}
-
 	public int getConta() {
 		return this.conta;
 	}
-
 	public double getSaldo() {
 		return this.saldo;
 	}
-
 	public static int getTotalContas() {
 		return Conta.totalContas;
 	}
@@ -78,9 +74,27 @@ public abstract class Conta {
 		cc.depositar(valor);
 	}
 	
+	// Sobreescrita método toString
 	@Override
 	public String toString() {
 		return "Ag: " + getAgencia() + " conta nº: " + getConta();
 	}
 	
+	// Método para verificar agencias e contas iguais. 
+	public boolean isEqual(Conta conta) {
+		if ((getAgencia() != conta.getAgencia()) | (getConta() != conta.getConta())) {
+			return false;
+		}
+		return true;
+	}
+	
+	// Sobreescreve método equals da classe Object
+	@Override
+	public boolean equals(Object obj) {
+		Conta conta = (Conta) obj;
+		if ((getAgencia() != conta.getAgencia()) | (getConta() != conta.getConta())) {
+			return false;
+		}
+		return true;
+	}
 }
