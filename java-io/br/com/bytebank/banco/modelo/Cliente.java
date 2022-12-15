@@ -1,16 +1,26 @@
 package br.com.bytebank.banco.modelo;
+
+import java.io.Serializable;
+
 /**
  * Classe representa um cliente
  * 
  * @author lucas
  * @version 1.0
  */
+
 // Dados dos clientes (Testando formatações diferentes de código para melhor visualização)
-public class Cliente {
+
+public class Cliente implements Serializable {
+	
+	private static final long serialVersionUID = 193417458509485772L;
+	
+	// Atributos de um cliente
 	private String nome;
 	private String cpf;
 	private String datNasc;
 
+	// Construtor
 	public Cliente(String nome) {
 		this.nome = nome;
 		this.cpf = "000.000.000-00";
@@ -51,6 +61,14 @@ public class Cliente {
 		}
 
 		return newCpf;
+	}
+	
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+	
+	public void setDatNasc(String datNasc) {
+		this.datNasc = datNasc;
 	}
 
 }

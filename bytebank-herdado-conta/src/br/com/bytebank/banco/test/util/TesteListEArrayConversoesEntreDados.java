@@ -32,9 +32,10 @@ public class TesteListEArrayConversoesEntreDados {
 		
 		// Pegando um valor de uma String usando a Wrapper class
 		String s = "10"; 
-		int sWithIntegerValueOf = Integer.valueOf(s);
+		int idadeWithIntegerValueOf = Integer.valueOf(idade);
 		int sWithIntegerParseInt = Integer.parseInt(s);
-		System.out.println(sWithIntegerValueOf);
+		// Valueof pode receber uma string e utilizara o método parse
+		System.out.println(idadeWithIntegerValueOf); 
 		System.out.println(sWithIntegerParseInt);
 		
 		// Pegando um valor de um objeto Integer e transformando em double

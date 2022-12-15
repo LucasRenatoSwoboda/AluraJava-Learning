@@ -8,7 +8,7 @@ package br.com.bytebank.banco.modelo;
  */
 
 // Classe para criar uma conta
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta> {
 	private Cliente titular;
 	private int agencia;
 	private int conta;
@@ -25,6 +25,12 @@ public abstract class Conta {
 		this.agencia = 1;
 		this.conta = ++totalContas;
 		this.titular = cliente;
+	}
+	
+	// Construtor que recebe agencia e conta
+	public Conta(int ag, int conta) {
+		this.agencia = ag;
+		this.conta = conta;
 	}
 
 	// Métodos de acesso get para retornar titular, agência, conta e saldo
@@ -77,7 +83,7 @@ public abstract class Conta {
 	// Sobreescrita método toString
 	@Override
 	public String toString() {
-		return "Ag: " + getAgencia() + " conta nº: " + getConta();
+		return "Ag: " + getAgencia() + " conta nº: " + getConta() + " - Titular: " + getTitular().getNome();
 	}
 	
 	// Método para verificar agencias e contas iguais. 
@@ -97,4 +103,10 @@ public abstract class Conta {
 		}
 		return true;
 	}
+	
+	@Override
+	public int compareTo(Conta c) {
+		return Double.compare(this.getSaldo(), c.getSaldo());
+	}
 }
+  

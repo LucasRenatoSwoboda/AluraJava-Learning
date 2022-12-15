@@ -1,0 +1,1597 @@
+----------------------------------------
+
+######## Atendimentos 30/11/2022 #######
+
+----------------------------------------
+
+
+- Shirley Sponlein - 374819144
+
+- Shirley: Está tentando fazer uma nota de devolução
+de venda, pois não consegue mais cancelar
+a nota fiscal NE 6460, do dia 21/11/2022.
+- Shirley: Está tentando utilizar CFOP de cancalamento
+no menu 2.3-R.
+- Renato: Expliquei que ali consegue usar uma natureza 
+de operação de devolução, poderíamos fazer um 
+estorno também sobre essa nota.
+- Shirley: Recebeu uma orientação da sua contabilidade
+para fazer uma nota com natureza de não cancelada
+no prazo legal.
+- Renato: Isso seria um Estorno
+- Renato: No remoto, tirei cópia da nota da cliente
+para ver as tributações, mostrei como emitir estorno
+pelo menu 2.3-C -> Opção 32
+- Shirley: Agradeceu e encerramos o atendimento.
+
+------------------------------------------------------
+
+Módulo..: FAT (Favor entrar em contato)
+Cliente...: JL Soldas
+Contato..: Lucinéia
+Telefone.: 3524 4133
+Problema: Dúvidas em uma CFOP
+
+AnyDesk - 590233122
+
+- Lucinéia: Precisa enviar todas as notas 
+de um cliente específico por e-mail.
+- Renato: Quando fala as notas quer enviar
+xml e pdf, só xml, só pdf?
+- Lucinéia: Só os PDF.
+- Renato: Pode tirar no menu 2.3-O, no remoto mostrei 
+como selecionar o cliente, apareceu todas as notas.
+- Lucinéia: Selecionou as notas que queria, salvou.
+- Lucinéia: Agradeceu, minha colega Silvana precisa
+falar com vocês, transferiu ligação.
+
+Silvana - 320617881
+- Silviana: Recebeu uma nota de remessa
+precisa retornar esse material, CFOP 5913
+porém está buscando sem tributação de IPI
+- Renato: Criei uma nova sequência da CFOP
+5913 para cliente, sequência 2 com tributação de IPI
+- Renato: Vi que os itens não tinham alíquota de IPI
+mostrei para usuária e orientei que colocasse a alíquota correta.
+- Renato: Colocamos os itens novamente no pedido.
+- Silvana: Emitiu a nota e disse estar correto.
+- Silvana: Agradeceu e encerramos o atendimento.
+Recebeu uma nota de material de domonstração.
+
+------------------------------------------------------
+
+Katriane - GDM 
+
+Tentando emitir uma nota de serviço
+51-998290694
+Juliana - 
+
+---------------------------
+SIGER® - Atenção
+---------------------------
+Atenção        
+
+Falha de acesso ou autenticação na prefeitura.
+Realize as seguintes tentativas:
+
+1. Verificar junto ao responsável de TI da empresa bloqueios de internet para o endereço de serviço da prefeitura no firewall, servidor de internet e/ou modem. Devem estar liberados os acessos a:
+- *.gov.br;
+2. Certificar-se de estar utilizando o certificado de CNPJ e tipo correto, autorizado para emissão de NFS-e;
+3. Certificar-se de a empresa estar credenciada junto à prefeitura para emissão de NFS-e em fase de produção;
+4. Desconectar o certificado da USB, aguardar 10 segundos e reconectar;
+
+Em caso de dúvida, o setor de TI da empresa deverá ser comunicado.
+
+Comunicação executada: Emissão de NFS-e
+Link de comunicação: https://sapiranga.atende.net:7443/atende.php?pg=rest&service=WNERestServiceNFSe&cidade=padrao
+---------------------------
+OK                  
+---------------------------
+
+- Katriane: Não está conseguindo emitir.
+
+- Renato: Pedi para cliente redigitar a senha de comunicação
+do site da prefeitura dentro do SIGER®.
+- Renato: Revisei o cadastro econômico.
+- Renato: Busquei dentro da prefeitura de sapiranga
+informações de liberação do Webservice, não encontrei.
+- Renato: Rafael me ajudou, encontrou as liberações de Webservice
+- Renato: Após ajuste comunicou a nota que estava pendente.
+
+------------------------------------------------------
+
+Cristiana - Comercio de Alimentos 07298076000194
+334584107
+
+- Cristiana: Dentro da pasta de XML -> Envio, tinha vários
+XML que queria enviar por e-mail e agora não 
+está mais encontrando.
+- Renato: No remoto vi que a usuária tinha deletado 
+todos os arquivos, restaurei para a pasta padrão.
+- Renato: Para evitar problemas semelhantes, orientei
+que nos próximos envios, fizesse pelo menu 2.3-G. Mostrei
+para usuária como funciona a rotina.
+- Cristiana: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+Gustavo - Eliaville 
+- Gustavo: Precisa de um relatório de produtos
+- Renato: Cliente não tem anydesk, no meu PC não tenho o TW
+Orientei que tentasse pela manutenção consolidada, 1.6-M.
+- Gustavo: Esse me serve. Agradeceu e encerramos.
+
+----------------------------------------
+
+######## Atendimentos 01/12/2022 #######
+
+----------------------------------------
+
+REGISTRADO
+Nadila - So peças - 
+
+Cliente na versão 22.10f b776
+Aço Peças Oliveira Sigla ACO
+
+- Nadila: Emite notas com a CFOP 7101
+sempre saiu com unidade tributável de exportação
+e valor unitário da conversão. Após última atualização
+não está saindo mais.
+
+- Renato: No acesso remoto pedi para me mostrar as notas
+incorretas e as corretas.
+
+- Nadila: Mostrou algumas notas como: 
+-- NF 77049 - incorreta item sem un tributável de exportação 
+e sem conversão de valor unitário
+-- NF 71057
+Sai correto (c unidade tributável e valor unitário convertido
+mesmo que a unidade seja a mesma e o fator 1 x 1
+
+- Renato: Após comparar as notas vi que a diferença
+está na unidade do item no momento da emissão da nota
+atualmente o item tem a mesma unidade tributável 
+tanto para mercado interno e para exportação, antes
+o mesmo item tinha unidades diferentes, gerando assim
+a mensagem na nota.
+
+- Renato: Expliquei para a usuária que não há necessidade 
+de conversão quando as unidades são as mesmas. Que caso tenha
+alguma dúvida neste processo, pode realizar um teste
+incluindo um pedido com item com unidades diferentes
+e emitindo uma prévia para ver se sai correto.
+
+- Nadila: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+REGISTRADO
+Luciano - Sabão Imperial - 958732442 
+
+- Luciano: Para o supervisor de vendas
+não está aparecendo uma lista de preços 
+no PMO.
+
+- Renato: No remoto, acessei o painel 
+do cliente do PWE, nesse painel vi que
+se trata de um cadastro de representante,
+código 66.
+
+- Renato: No SIGER 1.4-A -> Tabela 11 -> 
+Representante 66 -> Mostrei as listas 
+vinculadas
+
+- Luciano: Mas não está ai a lista 8, 
+essa ele também deveria ter acesso.
+
+- Renato: Inclui a lista 8 e orientei que
+espere a nova exportação de dados que 
+deve ocorrer daqui meia hora, e pedir para
+ele sincronizar no PMO.
+
+- Luciano: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+REGISTRADO
+
+Dalton - Romani - 886647264
+Task que gera relatório de vendas
+Relatório código 86
+
+- Dalton: Tem uma tarefa que roda de madrugada
+Essa tarefa automática já teve problema no 
+passado pois não estava atualizando as taxas.
+
+- Renato: No remoto no servidor vi que 
+a tarefa está rodando, questionei a quanto
+tempo notou que não  está recebendo esse 
+relatório
+
+- Dalton: Uns dois dias.
+
+- Renato: O processo de atualização dos 
+indexadores de vocês é automático, e esse 
+processo depende da nossa rede interna. Porém
+estamos sem rede a dois dias, para corrigir
+vocês podem lançar o indexador no menu 1.9. E
+gerar esse relatório manaul por enquanto.
+
+- Dalton: Você consegue mandar um e-mail
+explicando?
+
+- Renato: Expliquei que devido a nossa rede,
+estamos sem e-mail também. Expliquei que
+sofremos um ataque e que estão trabalhando
+para restaurar todos os dados e serviços  
+internos.
+
+- Dalton: Vai explicar interno, agradeceu
+e encerramos o atendimento.
+
+----------------------------------------
+
+REGISTRADO
+
+51.993588586
+Vitor - Taura Agronegocios - 616697746
+Parametro no sistema
+Tem por regra não liberar pedido se não
+tiver estoque.
+pedido 132
+produto 1910112
+local 23 sem estoque
+1.2-A
+
+- Vitor: Usuários estão conseguindo fazer
+a liberação de pedidos bloqueados por 
+falta de estoque e não deveriam.
+
+- Renato: No remoto vi que o usuário do 
+Vitor tem permissão para fazer a liberação,
+mostrei para cliente.
+
+- Vitor: Não é o meu usuário é da minha 
+colega Daiana que não deveria. 
+
+- Renato: Vi que na sigla atual não está
+habilitado esse bloqueio, 1.2-A -> Bloqueios
+-> Itens -> Controle de Estoque -> Itens 
+sem saldo. Vi em outra siglae o bloqueio
+está habilitado. Você quer que funcione 
+igual das duas siglas?
+
+- Vitor: Sim nas duas deve funcionar da 
+mesma forma.
+
+- Renato: Copiei os bloqueios da PR1 para 
+TO1.
+
+- Vitor: Fez um teste na usuária da Daiana 
+e funcionou.
+
+## ATENDIMENTO 2 VITOR ##
+
+- Vitor: Preciso restringir que usuários
+incluam pedidos bloqueados na ordem de
+carga.
+
+- Renato: Busquei alguns bloqueios e não 
+encontrei nada, chamei o grupo FAT para ver
+se alguém conhecia algo que atendesse o 
+cliente, não tive retorno. Combinei com cliente
+que analisaria com calma a sua necessidade. E 
+assim que possível lhe retornaria com uma
+resposta.
+
+GERAR PENDÊNCIA - 51.993588586 - VITOR
+
+----------------------------------------
+
+REGISTRADO
+Carlos - Broilo / Broplast / Injetados Broilo- 569238478
+- Carlos:  Beira Rio está reclamando que uma nota
+fiscal, tem uma diferença do total com
+o xml. Diferença de 0,04 centavos 
+Valor da nota 94451 de 25/11/2022 
+cliente 42
+
+Total 27755,92
+Total da cópia de nota 27755,88
+
+- Renato: No remoto vi que a cópia da nota
+tem uma informação diferente do que está
+gravado no XML. Total dos produtos.
+
+- Renato: Combinei de analisar a situação
+e retornar.
+
+GERAR PENDÊNCIA -  - CARLOS - 999184777
+
+----------------------------------------
+
+REGISTRADO
+Carmem - Sabão Imperial - 558406782
+
+- Carmem: Pedido 9459, não está conseguindo
+avançar no pedido.
+
+- Renato: Vi que aparece uma mensagem 
+relativo a regra comissional, a venda
+não se enquadra a regra comissional, tem 
+relação com o atendimento anterior, onde
+o Luciano pediu para liberar a lista
+para o representante.
+
+- Renato: Questionei usuária se não deveria
+se enquadrar essa lista em uma regra também, 
+a mensagem está aparecendo pois não se 
+enquadra em nenhuma regra.
+
+- Carmem: Não sabe.
+
+- Renato: Tem alguém que faça essa manutenção
+das regras para vocês?
+
+- Carmem: Não sabe também.
+
+- Renato: Expliquei que eu não tenho como
+fazer algum ajuste sem entender o funcio-
+namento da empresa relativo as regras, que 
+o ideal é que fale com alguém que tenha esse
+conhecimento dentr da empresa.
+
+- Carmem: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+REGISTRADO
+Eber - ZF Metais - 529835143 - 170846819
+Como sei qual é vendedor que mais 
+
+### ATENDIMENTO 1 ###
+
+- Eber: Precisa de um relatório que 
+consiga quem mais vendeu determinado item
+em determinado período
+
+- Renato: Dentro do acesso remoto, mostrei
+o relatório  estatistico 5.3-P, organizei a
+seleção com o grupo 9 e período e salvei
+a seleção para o cliente. 
+
+- Eber: Esse serve mas se tiver um outro
+com dados gerais só dos produtos.
+
+- Renato: Salvei a seleção para vocês
+temos vários relatórios diferentes aqui 
+nesses menus, você pode ir testando estes
+outros se tem algum que te atenda.
+
+- Eber: Vou fazer isso.
+
+### ATENDIMENTO 2 ###
+
+- Eber: Dentro de vendas balcão, 6.9-V.
+Preciso bloquear para uma sigla o uso 
+do consumidor final, pois eles não estão
+cadastrando nenhum cliente e vendendo 
+apenas para consumidor.
+
+- Renato: Busquei alguns bloqueios dentro
+parametrização, não encontrei nenhum que
+impossibilite o uso do consumidor final. 
+
+- Eber: Não é urgente o assunto.
+
+- Renato: Nesse caso, vou analisar melhor 
+interno e assim que tiver uma resposta 
+lhe retorno.
+
+
+GERAR PENDÊNCIA -  EBER
+
+----------------------------------------
+
+REGISTRADO
+Ranieri - Rafael de Wallau - 346921478
+
+- Ranieli: Estou tentando fazer o cancelamento
+e não está conseguindo: Rejeição prazo de 
+cancelamento.
+
+- Renato: Quando você emitiu essa nota? E vocês
+são do RS?
+
+- Ranieli: Em 18/11/2022, sim somos do RS.
+
+- Renato: O RS define um prazo legal para
+cancelamento de 7 dias após a emissão,
+por isso essa rejeição para você.
+
+- Renato: VocÊ poderia fazer uma devolução
+ou um estorno dessa nota para anular essa
+operação. Mostrei como emitir o estorno 
+pelo menu 2.3-C.
+
+- Ranieli: Podemos já emitir essa nota. Fez
+a emissão. E sobre essa compensação ainda 
+não emitimos o novo documento para compensar.
+
+- Renato: Então depois você poderá fazer 
+a compensação destes documentos direto nas 
+rotinas de pagamento.
+
+- Ranieli: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+REGISTRADO
+Ranieri 346921478
+
+- Ranieri: Está fazendo a compensação financeira 
+e não deu certo, não deixa informar a data.
+
+- Renato: Vi que cliente não tem o módulo FIN 
+contratado, vi que todos os documentos ficam
+em aberto. 
+
+- Renato: Expliquei para a cliente que eles
+geralmente não fazem esse controle pelo SIGER®.
+
+- Ranieri: Entendi, é que geralmente é outra
+colega que faz esse processo. Agradeceu e 
+encerramos o atendimento. 
+
+----------------------------------------
+
+FALTA REGISTRAR NÃO ENCONTREI CLIENTE
+
+Joana - M chilen - 846269648
+
+- Joana: De manhã falou com Lazzari, estão
+fazendo a primeira nota de importação, porém
+seu despachante retornou pois precisa do
+destaque do ICMS na nota e base de cálculo.
+Precisa aparecer base e valor de ICMS na nota
+
+- Renato: Vi que o cliente está enquadrado
+no simples EPP, questionei se seu despachante
+tem ciencia do seu enquadramento, e que
+geralmente não destaca ICMS em campo próprio.
+
+- Joana: A principio sim.
+
+- Renato: Estava olhando as parametrizações
+e configuração do pedido criado quando a
+cliente achou melhor verificar antes com
+a sua contabilidade sobre o destaque do imposto.
+
+- Joana: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+REGISTRADO
+Deise - Formelo - 783851257
+
+- Deise: Está fazendo uma nota de exportação
+Arrumou a unidade tributável de exportação,
+mas não arruma no pedido após o recálculo. 
+
+- Renato: Não lembro se o recálculo, ajusta
+a unidade tributável de exportação, mas você
+pode lançar novamente o item na nota.
+
+- Deise: Mas eu realizei recálculo antes e 
+funcionou.
+
+- Renato: No remoto iria testar e a usuária 
+decidiu mudar direto no pedido.
+
+- Deise: Acho que entendi o que você falou
+devo apagar o item e lançar novamente né?
+
+- Renato: Isso.
+
+- Deise: Fez o ajuste e emitiu a nota, 
+saiu  conforme esperado, agradeceu e encerramos
+o atendimento.
+
+----------------------------------------
+
+REGISTRADO
+Footwear
+Edmilson - Flutec - 549169584
+
+- Edmilson: Está saindo acumulado os itens 
+na nota e não quer que saia assim, me mostruo
+pedido 97.
+
+- Renato: Na acumulação do cliente está conforme
+a empresa, na empresa está parametrizado para
+acumular os itens.
+
+- Edmilson: Quer que saia exatamente como lançou
+no pedido. Lança 4 itens, cada item tem sua grade
+mas alguns estão com a mesma descrição. Me mostrou
+outra nota que saiu assim.
+
+- Renato: Estava tentando identificar alguma alteração
+mas o cliente estava reclamando constantemente e não
+me deixava ver as configurações.
+
+- Edmilson: Preciso cancelar essa nota que está 
+errada, amanhã de manhã te ligo para continuarmos.
+
+- Edmilson: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+######## Atendimentos 02/12/2022 #######
+
+----------------------------------------
+
+REGISTRADO
+Tamires KSD Metais (SKYPE)
+TAMIRES, 14:33
+Boa tarde
+
+
+tudo bem?
+
+preciso de uma ajuda sua
+
+06:58
+Bom dia @TAMIRES , tudo bem?
+
+Estamos com problema na rede interna e eu estava sem Skype por isso não te respondi.
+
+Posso ajudar em algo?
+
+TAMIRES, 07:18
+Bom dia
+
+tudo bem
+
+alinhamos nossa rotina de comissões 
+
+porém preciso ver contigo uma questão
+
+desta forma aplicamos um parâmetro para ter um bloqueio quando a comissão estiver zerada, desta forma não deixa avançar dentro do pedido sem ter uma comissão aplicada 
+
+porém temos uma exceção  
+
+no produto matriz de aplicação não é pago comissão 
+
+precisamos de um parâmetro  
+
+ou seja continuar bloqueando quando estiver zerado a comissão exceto nas matrizes
+
+07:24
+Entendi, bom teríamos que ver se é possível, pois o bloqueio de comissão zerada não tem restrição por produto, é uma parametrização da empresa.
+Vende com frequência esses produtos matrizes?
+São valores altos ou são valores baixos?
+
+TAMIRES, 07:26
+
+Vende com frequência esses produtos matrizes?
+Rech Informática - Renato, Hoje, 07:25
+sim
+
+
+São valores altos ou são valores baixos?
+Rech Informática - Renato, Hoje, 07:25
+os valores variam bastante de acordo cm o modelo 
+
+07:26
+As formas mais simples de solucionar é você colocar um valor irrisório de 0,01% de comissão, assim a comissão sairia centavos, mas se forem valores altos fica complicado. Outra forma é autorizar cada pedido, mas se tem muitos pedidos também fica um processo oneroso.
+Então, teria que ver a base de vocês, porém estou sem conexão ao servidor de vocês essa semana devido o problema na nossa rede interna.
+Posso gerar uma pendência e analisar com calma como está parametrizado e te retornar depois com uma resposta
+
+TAMIRES, 07:28
+sim pode ser 
+
+
+07:29
+Legal, assim que nossa rede for estabelecida por completo, consigo analisar e te retorno
+
+##### GERAR PENDÊNCIA #####
+
+----------------------------------------
+
+REGISTRADO
+GDM - pedido 6120
+00181 - O número do RPS já foi utilizado para converter outra NFSe.
+
+GDM, 10:28
+Bom dia
+
+
+Nos falamos ontem a respeito das notas de serviço
+
+Fiz uma e tentei emitir ontem
+
+Mas aparece essa mensagem
+
+
+
+06:59
+Bom dia, tudo bem?
+
+Estamos com problema na rede interna e eu estava sem Skype por isso não te respondi.
+
+Posso ajudar em algo?
+Não lembro do assunto, pode me esclarecer melhor por favor?
+
+GDM, 08:19
+Bom dia
+
+Estavamos tentando emitir uma nota de serviço pelo siger
+
+Fui tentar emitir uma e agora aparece esse erro
+
+08:34
+É da prefeitura de sapiranga?
+
+GDM, 08:39
+Sim
+
+08:40
+Você chegou a emitir alguma nota pelo SIGER depois da configuração que realizamos ou na primeira tentativa já apareceu esse erro?
+
+GDM, 08:40
+Na primeira tentativa esse erro já apareceu 
+
+08:40
+O erro está dizendo que a RPS já existe no site da prefeitura para emissão de uma NFS
+provavelmente pelas  emissões diretas que vocês fizeram
+teria que usar outra numeração de RPS
+Lembra a mensagem que eles te mandaram que você me mostrou aquele dia?
+Você só me mostrou uma pequena parte da mensagem, eles não te passaram a numeração da RPS que você deveria utilizar?
+
+GDM, 08:43
+Não passaram, a única mensagem foi essa
+
+
+
+Teria que criar outra numeração?
+
+08:44
+Consegue me dar acesso e me mostrar o erro?
+
+GDM, 08:44
+Sim
+
+248 528 880
+
+09:02
+Só um momento, estou conversando interno para ver como podemos mudar essa numeração de RPS para seguir a sequência
+
+GDM, 09:02
+Ok!
+
+09:24
+Você consegue acessar o site da prefeitura?
+Não estou conseguindo com nenhuma numeração de RPS
+09:30
+preenche os dados por favor
+Tive que trocar manual o número da RPS
+Agora foi, só que tive que fazer outro pedido
+
+GDM, 09:35
+Agora as próximas vão ir certo?
+
+09:35
+Olha a princípio é para comunicar, o problema deu por que nas primeiras emissões o número da RPS estava incorreto
+e não conseguia comunicar
+agora vai seguir a sequência da última emitida
+então é para funcionar
+
+GDM, 09:36
+Tá bom muito obrigada, estava a um tempão tentando resolver isso
+
+
+09:36
+Se precisar, só chamar
+
+GDM, 09:36
+Certo!
+
+- Renato: Para solucionar para o cliente tive
+trocar manual o número da RPS 
+2.3-K -> 7 -> 4. Gravar essa nova numeração
+de RPS como pendente. 
+- Renato: Comunicar as pendentes para gravar
+como emitida no SIGER para gravar o número 
+da RPS. E emitir novamente a nota de serviço.
+
+----------------------------------------
+
+REGISTRADO
+Carol - Conesul
+Queria falar com Chagas sobre Docca
+Taina passou para mim, expliquei que
+não tenho conhecimento sobre a rotina 
+e iria passar para outro técnico.
+
+----------------------------------------
+
+REGISTRADO
+Cassio - da Multicromos - 991501463
+Precisa ver a situação do Token que 
+o Lazzari ficou de ver com a Beira Rio.
+
+- Renato: Avisei Lazzari, que disse 
+que não conseguiu contato devido ao 
+problema de comunicação interna, tinha
+todos os dados no sistema para contato.
+
+----------------------------------------
+
+REGISTRADO
+Néia - Mult Tape - 135656115
+
+### ATENDIMENTO 1 ###
+- Néia: Incluir orçamento, precisa buscar os últimos itens vendidos
+- Renato: Mostrei o Ctrl + F9. Expliquei como funciona para buscar
+
+### ATENDIMENTO 2 ###
+- Néia: Precisa seguir uma sequencia de busca de produtos quando faz
+a busca e volta sempre para o primeiro item.
+- Renato: Alterei para manter a configuração de pesquisa
+- Renato: Mudei a seleção da usuária para descrição 
+
+### ATENDIMENTO 3 ###
+- Néia: Quando vai enviar um orçamento busca
+uma mensagem padrão que já tinha configurado
+não lembra onde ajustou e precisa ver a possibilidade
+de mais de uma mensagem padrão.
+- Renato: Não encontrei de onde busca a mensagem
+padrão para e-mail, combinei de analisar interno.
+
+###### GERAR PENDÊNCIA ######
+
+### ATENDIMENTO 4 ###
+- Néia: Precisa ver a observação ou tipo do pedido
+ao lançar cada item no orçamento que já foi vendidos
+- Renato: Configurei no botão das últimas vendas
+do orçamento os campos que a usuária precisa.
+
+### ATENDIMENTO 5 ### 
+
+- Néia: Precisa imprimir direto na tela
+de gerenciar orçamento os orçamentos.
+- Renato: Inclui o botão de imprimir orçamento
+para usuária e mostrei como incluir para outros
+usuários que utilizam a rotina.
+
+### ATENDIMENTO 6 ###
+
+- Néia: Precisa que ao salvar um arquivo
+de orçamento, o nome venha com o nome do cliente também.
+- Renato: Expliquei que isso é padrão do sistema, porém
+poderia analisar e retornar depois para ver se
+seria uma implementação ou se temos algumas
+configuração que atenda a sua necessidade.
+
+###### GERAR PENDÊNCIA #######
+
+----------------------------------------
+
+REGISTRADO
+Nelson - Dream Fitness - 769467311 - 3529-6490
+
+- Nelson: Tem um pedido 79, que utiliza para gerar
+relatório dos insumos para o setor de compra 3.1-L
+porém não está saindo correto a explosão.
+
+-  Renato: No remoto vi que o cliente estava 
+tirando o relatório sem filtrar o pedido, vi que
+já tem uma seleção salva com o código de pedido
+79, questionei se não deveria utilizar esse.
+
+- Nelson: Quem fazia esse processo era outro
+colega e não instruiram nessa parte.
+
+- Renato: Expliquei que não faz sentido usar o pedido
+para controle e não filtrar ele, gerei o relatório 
+com a seleção que já estava salva e pedi que conferisse
+
+- Nelson: Aparentemente está correto, passou 
+para o seu colega a planilha e disse que vão verificar.
+
+- Nelson: Preciso do suporte do GIN também, não estou
+conseguindo fechar as quantidades de itens nas OP's.
+
+----------------------------------------
+
+REGISTRADO
+GDM - Katriane
+
+10:04
+Oi, estava conversando aqui interno sobre o seu caso, achei estranho gravar uma nota como emitida, e aparentemente não ir para a prefeitura
+
+eu poderia dar mais uma olhada na sua base para ver se ficou algo incorreto?
+Tive que mudar a numeração da nota anterior e parece que ela gravou como emitida
+mesmo sem ir para a prefeitura
+
+GDM, 13:13
+Oi
+
+Sim estava para te falar isso
+
+a número 311 e a 312 estão como emitidas, mas a certa é apenas a última, no caso a número 9
+
+
+
+a 311 e 312 deveriam ser canceladas, mas não consegui pelo 5-2,3,u
+
+13:28
+Estou em uma ligação agora
+quando encerrar aqui te chamo para conectarmos pode ser?
+
+GDM, 13:28
+Pode sim
+
+13:43
+Oi
+Posso olhar agora?
+
+GDM, 13:45
+Sim
+
+13:47
+Onde você consultou essas notas acima
+?
+Mas essas são do dia 28/10 e 04/11?
+
+GDM, 13:50
+sim
+
+13:51
+Mas essas são as erradas
+vi pelo número da RPS
+Acho que deu alguma inconsistência e gravou com a data incorreta
+
+GDM, 13:51
+Sim, tem que cancelar elas
+
+
+Acho que deu alguma inconsistência e gravou com a data incorreta
+Rech Informática - Renato, Hoje, 13:51
+Sim, acho que deu mesmo
+
+13:57
+Pronto
+
+GDM, 13:57
+Obrigada!!
+
+13:57
+ela gravou como emitida por que está parametrizado para evitar cancelamento de RPS
+Agora está certo
+Nada, se ver qualquer outra divergência me chama que damos uma olhada
+
+GDM, 13:58
+Ok! muito obrigada
+
+----------------------------------------
+
+REGISTRADO
+Fabiano - Grupo SAT - 622118542 - Santech - 54-991723232
+
+- Fabiano: Precisa relatório de clientes por cidade.
+
+- Renato: Mostrei para cliente como filtrar e gerar 
+relatórios pela manutenção consolidade 1.5-M.
+
+- Fabiano: Além disso eu precisaria de alguma forma
+identificar os clientes por regiões.
+
+- Renato: Mostrei como funciona as regiões e micro regiões
+tabelas 22 e 35 dentro do sistema.
+
+----------------------------------------
+
+######## Atendimentos 05/12/2022 #######
+
+----------------------------------------
+
+REGISTRADO
+Simone - H.P Parafusos- 876082063 
+
+- Simone: Quer uma lista de clientes do 
+Representante 33 
+
+- Renato: Dentro do menu 1.5-M mostrei como
+filtrar o representante 33.
+
+- Renato: Mostrei como criar um excel com base
+nas informações que trouxer.
+
+----------------------------------------
+
+REGISTRADO
+Ana - Brasul - 
+
+- Ana: Há diferença na conciliação de imnportação
+de PIS/Cofins com o que está na nota fiscal.
+
+- LFI -> Relatório contribuições 
+17/10
+3102
+item 9 - ref 32019
+NF 29299
+Base 12295,24
+4.7-P
+
+SKYPE
+
+Ana, 09:26
+Bom dia Lucas, você está dando suporte no faturamento?
+
+09:27
+Bom dia Ana, tudo bem?
+
+Sim atendo faturamento, posso ajudar em algo?
+
+Ana, 09:27
+sim, sobre uma nota de importação na Brasul
+
+a NF saiu correto conforme o espelho, fechou a base e valores de calculo de pis/cofins também fecharam
+
+só que no momento de eu conciliar pis/cofins no Siger tem um item que calculou completamente outro valor que consta na NF, e não consigo identificar de onde o siger buscou o valor, é somente em um item
+
+09:30
+E essa conciliação veio da NF ou do movimento de entrada que é feito?
+Tem documento vinculado?
+Quer me dar acesso e me mostrar essa diferença?
+
+Ana, 09:31
+ta bom
+
+qual o caminho do suporte, eu esqueci
+
+09:32
+9.4-A
+Ferramentas -> Suporte Remoto
+
+Ana, 09:33
+Olá,
+
+Eu gostaria de te convidar para uma sessão AnyDesk. Minha ID AnyDesk é 593462077.
+
+Obtenha AnyDesk em:
+
+https://anydesk.com
+
+
+The Fast Remote Desktop Application – AnyDesk
+https://anydesk.com
+563462077
+
+09:34
+Estou vendo sua tela
+me mostra a diferença por favor
+
+Ana, 09:35
+é o item 32019
+
+na nf a abse e 2853,68
+
+09:37
+abre um outro siger por favor
+quero olhar a nota no FAT
+09:50
+Viu que lancei de novo em uma outra pré nota de teste e buscou o mesmo valor para a base?
+Parece algo configurado nesse item
+
+Ana, 09:51
+no II ?
+
+09:51
+Vou pedir que aguarde um pouco, vou conversar com meus colegas para ver se alguém já viu uma configuração ou enquadramento que faça isso
+Essa que esta na tela
+eu criei agora para teste
+a base de calculo de PIS e COFINS ficou o mesmo valor da tua apuração
+Conciliação*
+
+Ana, 09:52
+TA CERTO, VOU AGUARDAR
+
+09:52
+Por algum motivo para esse item está pegando sempre esse valor
+Acho que eu vi o que aconteceu
+ele está pegando o valor lançado e calculando a base
+o PIS e COFINS é lançado manualmente
+A alíquota de PIS e COFINS é diferente para esse item?
+Por que ele pega o padrão da empresa conforme o enquadramento
+e calcula com base nisso aparentemente
+
+Ana, 09:56
+onde tu viu isso?
+
+09:57
+O que?
+Vi na tua nota que a base é 2,10%
+
+Ana, 09:57
+a aliuota está como normal
+
+aliquota
+
+no cadastro
+
+09:58
+Faz 2,86 que é o valor do PIS e divide pelo percentual da alíquota desse item
+Pega esse item de exemplo para você entender
+depois te mostro o outro
+
+Ana, 09:59
+2,10
+
+09:59
+isso, pega o valor 2,86 de PIS lançado e divide pela alíquota para chegar na base
+vai chegar nos 136,19
+
+Ana, 10:00
+sim
+
+10:00
+se conseguiu fazer.. agora faz com o outro item que você disse estar incorreto
+258,20 e divide pela mesma alíquota
+o cálculo de PIS e COFINS não é automático na nota, o usuário lança manual no momento que está fazendo a nota.
+
+Depois do valor lançado ele calcula o valor de imposto e divide pela alíquota padrão da empresa, conforme enquadramento.
+
+Ana, 10:02
+mas o valor do pis correto é 59,93
+
+10:02
+Então o usuário lançou errado na hora que estava fazendo
+
+Ana, 10:11
+Desculpa Lucas, bati com o pé no computador e desliguei
+
+
+ela digitou o valor do IPI 
+
+10:12
+
+ela digitou o valor do IPI 
+Ana  Contabilidade, Hoje, 10:12
+Como assim?
+No lugar do PIS, isso?
+
+Ana, 10:13
+sim o valor do IPI é 258,20 era para digitar 59,93
+
+10:13
+Entendi, eu não sei se no LFI eles conseguem só ajustar os impostos, não sei como funciona lá..
+
+Ana, 10:13
+agora entendi, já expliquei pra ela antes de encerrar conferir os impostos
+
+
+10:13
+Talvez eles consigam ajudar a resolver essa diferença
+
+Ana, 10:13
+acredito que sim
+
+vou passar pra Beatriz agora, muito obrigada.
+
+10:14
+Nada, qualquer coisa só chamar!
+
+----------------------------------------
+
+REGISTRADO
+Pablo -  Temperalle - 
+Mobile - 
+- Pablo: Fui digitar um pedido aparece uma mensagem:
+O valor unitário do item está zerado. (Mobile)
+- Cliente Sabor da Serra - 1511
+- Item 20797
+
+- Renato: Pedi para baixar o AnyDesk, acessei remoto.
+No remoto vi que outros itens também estão sem preço 
+para o representante, vi que no painel do PWE
+tem várias listas e o item tem preço. Porém o 
+representante não tem acesso as listas para 
+lançar no pedido.
+
+- Renato: Orientei que confirmasse com a Temperalle se 
+teve algum ajuste nas listas vinculadas ao seu
+representante.
+
+
+----------------------------------------
+
+Regina - O.J Simoes
+
+SKYPE
+
+10:56
+Tem várias opções estou vendo qual se enquadra na necessidade que você citou
+Com dados de cada venda separado por representante
+
+regina, 10:59
+Só preciso que saia o cliente com o valor total do pedido 
+
+E que tenha um total geral 
+
+Q possa fazer a impressão por representante 
+
+Pq o cálculo sou eu quem faco
+
+11:00
+Ok, da uma olhada no que está na tela
+se assim atenderia a sua necessidade
+
+regina, 11:00
+Estou vendo 
+
+Mais sem essas repartições 
+
+11:01
+Você pode gerar em PDF, gerei em excel mas tem outros formatos
+
+regina, 11:01
+Somente uma listagem dos pedidos 
+
+E com valor total 
+
+11:02
+O que você quer dizer com repartições?
+
+regina, 11:02
+
+
+11:03
+Quantos representantes x Vendedores você tem?
+Acho que o mais simples para sair conforme você quer é esse
+mas teria que tirar um de cada vez
+
+regina, 11:04
+3
+
+11:04
+São poucos
+então acho que o que ficaria melhor para você
+seria esse
+é o mais simples entre eles
+
+regina, 11:05
+ta lento minha internet
+
+esse relatorio que esta na tela 
+
+faz de novo pra eu ver com o vendedor luis carlos
+
+por favor 
+
+FAZ UM POUCO MAIS DEVAGAR 
+
+foi muito rapido 
+
+nao consegui anotar
+
+11:06
+Eu te mostro como fazer, só primeiro estou fazendo para você ver se serve
+Serve esse?
+
+regina, 11:07
+esse sim porem ta faltando venda
+
+pq temos duas formas de fazer nf 
+
+uma normal e a outra como o o cliente nao quer nf a gente gera uma PR
+
+11:08
+Me mostra uma que não esteja aí
+
+regina, 11:08
+e acho q essas PR estao faltando 
+
+11:08
+Deve ser os filtros
+só preciso entender como elas são
+tem alguma desse representante que estamos tirando?
+Esse é de Elienai
+não do Luis
+
+regina, 11:10
+pera
+
+ta na tela 
+
+vc quer um do Luis ?
+
+11:11
+Sim, você me disse que não estava saindo do relatório do luis
+Precisamos ver qual não está saindo
+
+regina, 11:14
+esta vendo ali em cima no relatorio de pedidos do mes passado 
+
+11:14
+Mas ali é pedido
+você me pediu de venda
+
+regina, 11:14
+e no relatlrio que vc tirou deu 150
+
+11:14
+pedido não necessariamente é venda, venda é efetivada no sistema pela nota
+Nessa tela tem pedidos que não foram faturados
+Você que saia tudo, faturado e não faturado?
+
+regina, 11:15
+sim
+
+tudo 
+
+pq nem tudo e faturado 
+
+
+
+
+
+ Foi muito rapido
+
+Querido já consegui 
+
+11:23
+Estava testando
+
+regina, 11:23
+Já foi informado pra arapongas como tirar 
+
+11:23
+Não vi que tinha mandado mensagem
+
+regina, 11:23
+E pelo 2.1.G
+
+11:23
+Legal
+Ajudo em mais alguma coisa?
+
+regina, 11:24
+Por enquanto tudo ok
+
+----------------------------------------
+
+Leonardo - Lix Plasticos - 314320197 - Novaplast
+
+- Leonardo: Emitimos umas notas em uma sigla nota, 
+precisa recálcular pois mudou os custos dos produtos
+nessa nova sigla.
+ 
+- Renato: A principio a tua nota de venda não muda
+o teu custo de aquisição, por que você precisaria
+rodar esse recálculo, até por que teus preços de venda
+não podem ser alterados, você gravaria uma informação 
+diferente no sistema do que já foi para o SEFAZ.
+
+- Leonardo: Uma outra colega utiliza para o cálculo 
+nos relatórios, e precisa que recalcule os custos.
+
+- Renato: E consegue mostrar esse relatório qual é
+e como está saindo e o que precisa mudar? Não 
+conseguimos gravar na nota um valor diferente do 
+que foi para o SEFAZ, mas talvez consigamos ajustar
+esse relatório dela para sair conforme ela precisa.
+
+- Leonardo: Acha melhor que a sua colega ligue 
+para ver como deve fazer.
+
+----------------------------------------
+
+Vânia - Pabovi - 963953745 - (54)34629423 
+vania@pabovi.com.br
+
+- Vânia: Ao realizar a transferência de pedidos
+de uma filial para a matriz está perdendo IPI
+Matriz PAB (Destino)
+2.1-C pedido  122373
+IPI 
+Filial PST (Origem)
+2.1-C pedido  122373
+produto 1420021
+cliente 63239
+
+- Renato: Esse é um pedido que você já tinha feito,
+você consegue me mostrar uma simulação do processo?
+
+- Vânia: Sim, simulou:
+Transferência PST -> PAB -> 2.1-G Pedido 122443, mostrou
+item 1420038
+
+- Renato: Vi que a tributação do item está correta,
+a CFOP do item está correta, o menu de transferência
+de pedidos não traz configuração de IPI. Os pedidos estão carregando sem tributação de IPI
+
+- Renato Consegue acessar com um usuário administrador
+para vermos as parametrizações?
+
+- Vânia: Não tenho acesso, vou pedir para o Rudimar 
+entrar em contato com você.
+----------------------------------------
+
+Jose - DSI -
+ 
+- Jose: Precisa atualizar um carimbo da CFOP.
+
+- Renato: Por telefone fui orientando o acesso
+ao menu 1.3-A -> Colocar a CFOP -> No carimbo
+F8 + F5 -> Fazer a manutenção do carimbo.
+
+- Jose: Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+Rudimar - 272571026 - 968706926
+- Rudimar: Entrou em contato para ver 
+a situação da Vânia sobre  o imposto que está
+incorreto.
+
+- Renato: Dentro da parametrização da PST
+FAT 1.2-A -> Integrações -> Projeções = '1' mudei para '3'
+
+- Renato: Testei cadastrando um pedido na base
+teste do cliente e funcionou depois de ajustar
+a parametrização, arrumei também na base oficial
+
+- Rudimar: Vai falar com a Vânia e pedir 
+para ela testar. Agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+######## Atendimentos 06/12/2022 #######
+
+----------------------------------------
+
+Bianca Reis - Clausi - 808700210 - Confeções Clausi
+996535851
+
+- Bianca: Não está conseguindo fazer estorna uma 
+nota, está fazendo pelo 2.3-C -> 32
+
+Rejeição:
+
+---------------------------
+SIGER® - ID da Nota:   2834    Nota: NE /   004826
+---------------------------
+Atenção        
+
+A Secretaria da Fazenda retornou rejeição para a NF-e, alegando o seguinte motivo:
+
+848-Rejeicao: Transporte proprio por conta do Destinatário e CNPJ Base ou CPF do Transportador difere do CNPJ Base ou CPF do Destinatário
+
+Realize o ajuste necessário e execute novamente o processo de emissão da nota fiscal eletrônica!
+---------------------------
+OK                  
+---------------------------
+
+- Renato: Fiz a emissão dinâmica com o cliente trocando a tag modFrete.
+
+- Bianca: Deu certo, agradeceu e encerramos o atendimento.
+
+----------------------------------------
+
+Denise - Br Gellin Piscinas - 
+
+- Denise: Sistema ,travando na emissão de 
+nota fiscal.
+
+- Renato: Consegue me mostrar o problema?
+
+- Denise: Não é sempre, não tenho como mostrar
+
+- Renato: Perguntei que tipo de certificado
+utiliza, se é o cartão ou o instalado direto
+na máquina.
+
+- Denise: Cartão.
+
+- Renato: Expliquei que nesses casos de travar
+na emissão é problema na leitura do certifido
+digital na maioria das vezes. Poderia tentar
+trocar a porta USB que está conectada a leitora, 
+revisar se o certificado está conectado corretamente.
+Caso contrário só conectando e acompanhando as emissões
+para tentarmos entender.
+
+- Denise: Vai verificar, qualquer coisa
+ligará novemente. Agradeceu e encerramos
+o atendimento.
+
+----------------------------------------
+
+Julio - Smart Cool - 118406557 - 21250049
+Jocelito: 
+
+- Julio: Precisa copiar um modelo de orçamento
+em uma nova sigla.
+
+- Renato: No remoto vi que o cliente trabalha
+com Cloud Rech, expliquei que não tenho acesso 
+a nuvem para copiar o orçamento, chamei GTI
+no grupo do suporte, ninguém respondeu, deixei
+recado para um deles retornar para o cliente.
+
+- Renato: Nascimento (Rech) pediu para ligar para 
+o cliente e pegar o modelo.
+
+- Renato: Falei com Julio, no acesso remoto 
+copiei o modelo fiz uma alteração incluindo 
+a tag do tipo do frete que o usuário tinha 
+solicitado e passei para Nascimento copiar
+para a pasta.
+
+- Renato: Depois de copiado tirei um orçamento
+para cliente confirmar.
+
+- Julio: Passou para Jocelito, ele que queria 
+o ajuste.
+
+- Jocelico: É isso mesmo, agradeceu e encerramos
+o atendimento.
+
+----------------------------------------
+
+Rejane - Sim bolsas - 783373354
+
+- Rejane: Tenho que tirar uma nota de 
+entrada. CFOP 1554 não existe.
+
+- Renato: No remoto vi a CFOP, pedi para
+usuária me mostrar como está fazendo para 
+identificar qual o problema.
+
+- Rejane: 2.3-B -> Incluiu uma nota e na
+espécie não encontrou uma de retorno de 
+ativo imobilizado.
+
+- Renato: Criei uma espécie de entrada
+para usuária vinculando a CFOP que precisa.
+
+- Rejane: Continuou o cadastro da sua nota
+normalmente, agradeceu e encerramos o atendimento.
+
+- Ligou novamente:
+
+- Rejane: Está pedindo um código de enquadramento
+de IPI. Tem que ser igual a nota de origem.
+
+- Renato: E você consegue me msotrar essa
+nota de origem?
+
+- Rejane: Mostrou que a saída está com CST 
+de ipi 99 outros.
+
+- Renato: Dentro da CFOP 1554 coloquei CST 
+49 de entrada outras, conforme a saída.
+
+- Rejane: Emitiu a nota, agradeceu e encerramos 
+o atendimento.
+
+----------------------------------------
+
+Bianca - Plast Bordo - 602808210
+
+- Bianca: Tenho um manifesto de carga, tenho
+um arquivo XML que meu motorista vai buscar,
+e não estou conseguindo buscar ele para o 
+sistema.
+
+- Renato: Me mostra como você está fazendo.
+
+- Bianca: TLO - 2.2-A -> Está buscando o XML 
+da nota que salva em uma pasta específica e
+não está aparecendo.
+
+- Renato: Vi que é uma nota do SIGER, orientei
+que buscasse das notas do SIGER e não pelo XML
+
+- Bianca: Nem me lembrei, fez o processo
+buscando do SIGER e deu certo. Agradeceu
+e encerramos o atendimento.
+
+----------------------------------------
+
+Rose - RTN - 942895549
+- Rose: Trancou na hora da emissão.
+- Rose: Nota 4951, saiu com CFOP 5101 e
+normalmente é 5102.
+
+produtos 101
+produtos 10335
+produtos 10043
+
+- Renato: Fiz um teste cadastrando um novo
+pedido para esse cliente e saiu com CFOP
+5102 conforme esperado, vi que o produto
+não teve alteração.
+
+- Renato: Expliquei que se teve algum
+problema nos registros anteriores 
+
+----------------------------------------
+15:15 - 15:32d
+Vânia - Pabovi - 963953745 
+
+- Vânia: Gera o relatório 9.2-A -> 252 
+não está aparecendo o estoque da explosão
+quer saber se tem como trazer essa informação
+para o relatório.
+
+- Renato: De onde vem esse saldo de explosão
+que você está falando, consegue me mostrar um
+exemplo?
+
+- Vânia: Acessou um item e consultou estoque
+não tinha saldo, dentro do botão explosão 
+apareceu o insumo e o saldo desse item. Queria
+que aparecesse esse saldo no relatório.
+
+- Renato: Esse saldo não é do item que você me
+mostrou é do insumo não do produto que você 
+está vendo, ele leva para o relatório o estoque
+mas vai levar para o produto que tem esse saldo
+não para os produtos que utilizam ele como insumo.
+
+- Renato: Mostrei no relatório o insumo 13078
+e o saldo de 199 peças.
+
+- Vânia: Entendeu, agradeceu e encerramos 
+o atendimento.
+
+----------------------------------------
+16:21 - 16:40
+Cecile - Corium - 384198389
+
+Tem uma transportadora que foi carregado
+Tinha licença da policia federal vigente
+um dos produtos, tem licença federal.
+Transporte 329
+produto 5010000
+
+- Renato: Expliquei que hoje não tem 
+diferença da licença da PF por produto 
+dentro do transportador, teríamos que 
+solicitar uma implementação.
+
+- Cecile: Prefere falar com o Ernani sobre
+o assunto.
+
+----------------------------------------
+
+Gabriel - Lasiles - Gustavo
+Nota de emissão de consignado
+Saída do estoque.
+Quando vou consultar o produto.
+
+Iria conectar remoto, mas o cliente só
+tem team viewer, tentei explicar que 
+não tenho a licença, passou para o Gustavo
+que reclamou e iria passar a situação para
+o Nilo, que só tem Mac.
+
+Pediu meu nome e disse que vai ligar para
+falar com outro técnico.
+
+----------------------------------------
+
+
+
+----------------------------------------
+
+
+
+----------------------------------------
+
+
+
+----------------------------------------
