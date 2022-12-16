@@ -1,4 +1,2 @@
-INDEX VERSION 1.131+/media/renato-swoboda/86BCA5CDBCA5B857/Users/lucas/Dev/Cursos/Java e OrientaÃ§Ã£o a Objetos/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-3482269834.index
-1402089441.index
+INDEX VERSION 1.131+C:\Users\lucas\Dev\Cursos\Java e Orientação a Objetos\.metadata\.plugins\org.eclipse.jdt.core
+500264591.index
