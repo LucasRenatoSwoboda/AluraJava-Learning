@@ -2,13 +2,10 @@ package bytebank;
 
 public class CriaConta {
 	public static void main(String[] args) {
-		Conta_inv primeiraConta = new Conta_inv();
-		primeiraConta.agencia = 123;
-		primeiraConta.numero = 123456;
-		primeiraConta.titular = "Lucas";
-		primeiraConta.saldo = 200.00;
-		System.out.println("O saldo é: " + primeiraConta.saldo);
-		primeiraConta.saldo += 200.00;
-		System.out.println("O saldo mudou para: " + primeiraConta.saldo);
+		ContaInv primeiraConta = new ContaInv(new Titular("Renato", 1958404020, "13/06/1990"), 123, 123456);
+		primeiraConta.deposita(200);
+		System.out.println("O saldo é: " + primeiraConta.getSaldo());
+		primeiraConta.deposita(200);
+		System.out.println("O saldo mudou para: " + primeiraConta.getSaldo());
 	}
 }

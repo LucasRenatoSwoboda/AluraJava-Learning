@@ -11,6 +11,11 @@ import java.io.Serializable;
 
 // Classe para criar uma conta
 public abstract class Conta implements Comparable<Conta>, Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1354345L;
 	private Cliente titular;
 	private int agencia;
 	private int conta;

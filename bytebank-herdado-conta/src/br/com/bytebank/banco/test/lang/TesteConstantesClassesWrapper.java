@@ -25,10 +25,10 @@ public class TesteConstantesClassesWrapper {
 		 */
 		
 		// Valores possíveis e elevações possíveis.
-		System.out.println("Expoente máximo: " + Double.MAX_EXPONENT);
-		System.out.println("Expoente minímo: " + Double.MIN_EXPONENT);
-		System.out.println("Valor máximo: " + Double.MAX_VALUE);
-		System.out.println("Valor mínimo: " + Double.MIN_VALUE);
+		System.out.println("Expoente máximo de um Double: " + Double.MAX_EXPONENT);
+		System.out.println("Expoente minímo de um Double: " + Double.MIN_EXPONENT);
+		System.out.println("Valor máximo de um Double: " + Double.MAX_VALUE);
+		System.out.println("Valor mínimo de um Double: " + Double.MIN_VALUE);
 		System.out.println("" + Double.MIN_NORMAL);
 		
 		// Quantidade de bytes e bits de um Double

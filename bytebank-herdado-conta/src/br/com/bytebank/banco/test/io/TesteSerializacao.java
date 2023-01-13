@@ -6,6 +6,7 @@ import java.io.ObjectOutputStream;
 
 import br.com.bytebank.banco.modelo.Cliente;
 import br.com.bytebank.banco.modelo.Corrente;
+import br.com.bytebank.banco.modelo.Poupanca;
 
 public class TesteSerializacao {
 
@@ -19,11 +20,17 @@ public class TesteSerializacao {
 		// Cria Objeto do tipo conta e passa o cliente
 		Corrente cc1 = new Corrente(cliente);
 		cc1.depositar(250);
-		
+				
 		// Cria arquivo para gravar esse objeto
-		ObjectOutputStream oos = new ObjectOutputStream (new FileOutputStream ("cc.bin"));
-		oos.writeObject(cc1);		
-		oos.close();
+		ObjectOutputStream oosCorrente = new ObjectOutputStream (new FileOutputStream ("cc.bin"));
+		oosCorrente.writeObject(cc1);		
+		oosCorrente.close();
+		
+		Poupanca cp1 = new Poupanca(new Cliente("Renato"));
+		cp1.depositar(290);
+		ObjectOutputStream oosPoupanca = new ObjectOutputStream (new FileOutputStream ("cp.bin"));
+		oosPoupanca.writeObject(cp1);
+		oosPoupanca.close();
 		
 	}
 

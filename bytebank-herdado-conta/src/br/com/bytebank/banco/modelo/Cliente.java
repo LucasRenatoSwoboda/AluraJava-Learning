@@ -10,6 +10,8 @@ import java.io.Serializable;
  */
 // Dados dos clientes (Testando formatações diferentes de código para melhor visualização)
 public class Cliente implements Serializable {
+
+	private static final long serialVersionUID = 231535468723164L;
 	private String nome;
 	private String cpf;
 	private String datNasc;
