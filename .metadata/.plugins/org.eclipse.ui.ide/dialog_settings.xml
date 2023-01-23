@@ -30,6 +30,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\lucas\Dev\2108-java-testes-unitarios-tdd-projeto_inicial"/>
 			<item value="C:\Users\lucas\Dev\Cursos\Java e Orientação a Objetos\bytebank-melhorias"/>
 		</list>
 	</section>

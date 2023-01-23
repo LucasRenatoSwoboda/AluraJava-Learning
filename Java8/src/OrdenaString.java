@@ -36,13 +36,19 @@ public class OrdenaString {
 //			return 0;
 //		});
 		
-		palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+//		palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+
+		// Usando lambda que para cada elemento das palavras, joga em uma variavel local s e retorna o tamanho dessa variável local s
+		palavras.sort(Comparator.comparing(s -> s.length()));
+		
+		// Usando lambda com uma sintaxe que relata para cada String retorno seu tamanho
+		palavras.sort(Comparator.comparing(String::length));
 		
 		System.out.println(palavras);
 
-		for (String p : palavras) {
-			System.out.println(p);
-		}
+//		for (String p : palavras) {
+//			System.out.println(p);
+//		}
 		
 		
 //		Consumer<String> consumidor = new Consumer<String>() {
@@ -61,5 +67,7 @@ public class OrdenaString {
 
 		palavras.forEach(palavra -> System.out.println(palavra));
 
+		palavras.forEach(System.out::println);
+		
 	}
 }
